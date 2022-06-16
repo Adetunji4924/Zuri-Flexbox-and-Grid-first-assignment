@@ -1,0 +1,79 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing:border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    margin:0%;
+    padding-left: 15%;
+    padding-right: 15%;
+    border-radius: 5px;
+}
+main{
+    display:flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.left-content{
+    background-color: hsl(32, 78%, 52%);
+    padding:50px;
+}
+.left-content h3{
+    color:white;
+    font-family: 'big shoulders display', sans-serif;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.left-content p{
+    font-family: 'lexend deca', sans-serif;
+    padding-bottom: 40px;
+    color: hsl(0, 0%, 100%, 0.75);
+    font-size: smaller;
+}
+.middle-content{
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+}
+.middle-content h3{
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color:white;
+    font-family: 'big shoulders display', sans-serif;
+}
+.middle-content p{
+    padding-bottom: 40px;
+    color: hsl(0, 0%, 100%, 0.75);
+    font-family: 'lexend deca', sans-serif;
+    font-size: smaller;
+}
+.right-content{
+    background-color: hsl(179, 100%, 13%);
+    padding: 50px;
+}
+.right-content h3{
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color:white;
+    font-family: 'big shoulders display', sans-serif;
+}
+.right-content p{
+    padding-bottom: 40px;
+    color:hsl(0, 0%, 100%, 0.75);
+    font-family: 'lexend deca', sans-serif;
+    font-size: smaller;
+}
+button{
+   margin-top: 25px; 
+   text-align: center;
+   border-radius: 20px;
+   border-color:hsl(0, 0%, 100%, 0.75);
+   padding:10px 20px;
+   background-color: transparent;
+   color: hsl(0, 0%, 100%, 0.75);
+}
